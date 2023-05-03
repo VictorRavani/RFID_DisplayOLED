@@ -15,7 +15,7 @@ Utilizando o osciloscópio foi verificado que o nível de tensão do Tx do módu
 # RFID 
 
 Para realizar a leitura da TAG envie o comando Q via serial com as instruções \r\n
-Serial2.print("Q\r\n");
+* Serial2.print("Q\r\n");
 
 # PIN OUT ESP32 38 pinos
 
