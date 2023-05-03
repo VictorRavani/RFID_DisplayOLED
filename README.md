@@ -4,6 +4,14 @@ Repositório para salvar programa funcional utilizando o Display OLE e Módulo R
 
 ![image](https://user-images.githubusercontent.com/101602056/235198361-b76f9317-bb5e-43c9-9cd0-af37dfae9771.png)
 
+O módulo RFID FI-R300T será utilizado neste projeto, a tabela a seguir mostra as recomendações de operação: 
+
+![image](https://user-images.githubusercontent.com/101602056/235917938-8f8c51bd-20d4-4aee-aae7-4fd905e80506.png)
+
+Utilizando o osciloscópio foi verificado que o nível de tensão do Tx do módulo era de 3,6V, essa tensão é superior ao suportado pelo ESP32 que trabalha na faixa de 3V3, portanto foi montado um divisor de tensão para diminuir a tensão para aproximadamente 3V3. 
+
+![image](https://user-images.githubusercontent.com/101602056/235919336-6be9d3e6-eabe-4b2a-a6e2-9c9d79a45004.png)
+
 # RFID 
 
 Para realizar a leitura da TAG envie o comando Q via serial com as instruções \r\n
