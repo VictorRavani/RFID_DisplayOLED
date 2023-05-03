@@ -13,7 +13,7 @@ Serial2.print("Q\r\n");
 
 ![ESP32-básico-pinout](https://user-images.githubusercontent.com/101602056/235232991-eac5c2de-e2bb-4813-b9b1-8c859ec85699.jpg)
 
-# Cirsuito Montado 
+# Circuito montado 
 
 ![image](https://user-images.githubusercontent.com/101602056/235908544-1131aa3c-99f0-4535-a750-06cb1ed3697a.png)
 
