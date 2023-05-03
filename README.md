@@ -15,5 +15,14 @@ Serial2.print("Q\r\n");
 
 # Cirsuito Montado 
 
-![image](https://user-images.githubusercontent.com/101602056/235757237-e9c416e1-746d-4197-bff9-97ec8edecff7.png)
+![image](https://user-images.githubusercontent.com/101602056/235908544-1131aa3c-99f0-4535-a750-06cb1ed3697a.png)
+
+# Para subir para o Git no terminal do powershell
+
+* git status 
+* git add .
+* git commit -m "Escreva o seu comentário para identificar o seu commit, o que tem de novo no seu código, com áspas"
+* git push -u origin master
+
+
 
