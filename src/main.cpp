@@ -17,6 +17,7 @@
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 
+#define MOSFET_GND 32 // Desliga GND
 
 // Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
 #define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
@@ -28,12 +29,13 @@ void setup() {
   Serial2.begin(38400);
   Serial.begin(115200);
 
+  pinMode(MOSFET_GND, OUTPUT);
+  digitalWrite(MOSFET_GND, HIGH);  // "Liga GND"
+
   // Inicializa com o I2C addr 0x3C
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C); 
 
 }
-
-// Teste
 
 void loop() {
 
@@ -50,6 +52,36 @@ void loop() {
   display.display();
   delay(2000);
   display.clearDisplay();
+
+  delay(1000);
+  digitalWrite(MOSFET_GND, LOW);  // "Liga GND"
+
+  display.setTextSize(1); // Fonte do texto
+  display.setTextColor(WHITE); // Cor do texto
+  display.setCursor(0,28); // Posiciona o cursor
+  display.println("01"); // Imprime mensagem
+  display.display();
+  delay(2000);
+
+  delay(1000);
+  digitalWrite(MOSFET_GND, HIGH);  // "Liga GND"
+
+  display.setTextSize(1); // Fonte do texto
+  display.setTextColor(WHITE); // Cor do texto
+  display.setCursor(0,28); // Posiciona o cursor
+  display.println("02"); // Imprime mensagem
+  display.display();
+  delay(2000);
+
+    delay(1000);
+  digitalWrite(MOSFET_GND, LOW);  // "Liga GND"
+
+  display.setTextSize(1); // Fonte do texto
+  display.setTextColor(WHITE); // Cor do texto
+  display.setCursor(0,28); // Posiciona o cursor
+  display.println("01"); // Imprime mensagem
+  display.display();
+  delay(2000);
 
 }
 
