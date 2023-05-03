@@ -24,5 +24,9 @@ Serial2.print("Q\r\n");
 * git commit -m "Escreva o seu comentário para identificar o seu commit, o que tem de novo no seu código, com áspas"
 * git push -u origin master
 
+# Teste com código de leitura 
+
+![image](https://user-images.githubusercontent.com/101602056/235915492-ce890871-c24c-41c1-9973-dfdd109dd6cf.png)
+
 
 
