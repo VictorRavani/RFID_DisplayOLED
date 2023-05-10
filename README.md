@@ -36,5 +36,10 @@ Para realizar a leitura da TAG envie o comando Q via serial com as instruções 
 
 ![image](https://user-images.githubusercontent.com/101602056/235915492-ce890871-c24c-41c1-9973-dfdd109dd6cf.png)
 
+# Tabela sobre o tamanho da trilha em uma PCB
+
+![image](https://github.com/VictorRavani/RFID_DisplayOLED/assets/101602056/f272eee9-58a4-4234-bf1e-330ecbaa5967)
+
+
 
 
