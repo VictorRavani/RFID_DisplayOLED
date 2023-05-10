@@ -38,19 +38,7 @@ Para realizar a leitura da TAG envie o comando Q via serial com as instruções 
 
 # Tabela sobre o tamanho da trilha em uma PCB
 
-Largura da trilha para PCB				
-Corrente [A]	Para 1 oz		Para 2 oz	
-	[mil/th]	mm	[mil/th]	mm
-1	10	0,254000508	5	0,127000254
-2	30	0,762001524	15	0,381000762
-3	50	1,27000254	25	0,63500127
-4	80	2,032004064	40	1,016002032
-5	110	2,794005588	55	1,397002794
-6	150	3,81000762	75	1,90500381
-7	180	4,572009144	90	2,286004572
-8	220	5,588011176	110	2,794005588
-9	260	6,604013208	130	3,302006604
-10	300	7,62001524	150	3,81000762
-![image](https://github.com/VictorRavani/RFID_DisplayOLED/assets/101602056/2c862ab3-7199-4162-a660-197b8ba8be0e)
+![image](https://github.com/VictorRavani/RFID_DisplayOLED/assets/101602056/4a745e45-66c7-45a3-b69e-e2f93896325d)
+
 
 
