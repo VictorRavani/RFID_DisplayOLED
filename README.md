@@ -42,22 +42,12 @@ Para realizar a leitura da TAG envie o comando Q via serial com as instruções 
 
 # Trecho de código para realizar a leitura da tag RFID
 
+![image](https://github.com/VictorRavani/RFID_DisplayOLED/assets/101602056/3d79ead5-77a5-45bd-bd22-a3ae30c6beec)
 
-void loop() 
-{
+# Monitor Serial: 
 
-  Serial2.print("Q\r\n");
- 
-  teststr = Serial2.readString();  //read until timeout
-  teststr.trim();                        // remove any \r \n whitespace at the end of the String
+![image](https://github.com/VictorRavani/RFID_DisplayOLED/assets/101602056/2315b51a-ed83-43e2-bd29-b43a474c4e06)
 
-  if (teststr == "Q3000E28068940000502A3CE6747DCE30") {
-    Serial.println("Cartao Encontrado!");
-    Serial.println(teststr);
-  } else {
-    Serial.println("Sem Cartao");
-    Serial.println(teststr);
-  }
 
-}
+
 
